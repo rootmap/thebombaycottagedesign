@@ -66,18 +66,13 @@
 
                                             <a href=""><span class="q-mark">?</span>Forgot password</a> 
                                     </div>
-                                            <button class="btn login-btn">Login Now</button>
+                                            <button class="btn loginn-btn">Login Now</button>
                                         </form>
                                     </div>
                                     <div class="social-media-box">
                                         <p>Or Sign In With</p>
-                            <!-- <ul>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul> -->
-                            <a href="#" class="social-button" id="facebook-connect"> <span>Connect with Facebook</span></a>
-                            <a href="#" class="social-button" id="google-connect"> <span>Connect with Google</span></a>
+                                        <a href="#" class="social-button" id="facebook-connect"> <span>Connect with Facebook</span></a>
+                                        <a href="#" class="social-button" id="google-connect"> <span>Connect with Google</span></a>
                         </div>
                     </div>
                     <div class="box-hav-accnt">
