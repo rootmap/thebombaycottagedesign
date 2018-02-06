@@ -85,7 +85,7 @@ $_SESSION['captcha'] = simple_php_captcha();
                             <div class="cell-7">
                                 <div class="panel panel-default contactus">
                                     <div class="panel-heading clearfix">
-                                        <h3 class="panel-title">Reservation</h3>
+                                        <h3 class="panel-title uppercase" >Reservation</h3>
                                     </div>
                                     <form>
                                         <ul class="form-style-1">
