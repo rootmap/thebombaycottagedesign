@@ -107,6 +107,7 @@
                                 <li><a href="./reservation.php">Reservation</a></li>
                                 <li><a href="./offer.php">Offer</a></li>
                                 <li><a href="./login.php">Login</a></li>
+                                <li><a href="./login1.php">Login 1</a></li>
                                 <li><a href="./registation.php">registation</a></li>
                             </ul>
                         </li>
