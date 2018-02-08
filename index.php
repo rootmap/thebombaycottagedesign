@@ -115,7 +115,7 @@
                 <!-- Welcome Box end -->
 
                 <!-- Services boxes style 1 start -->
-                <div class="sectionWrapper">
+                <!-- <div class="sectionWrapper">
                     <div class="container">
                         <div class="row">
                             <div class="cell-3 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="200" style="animation-delay: 200ms;">
@@ -152,14 +152,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Services boxes style 1 start -->
                 <!-- FUN Staff start -->
                 <div class="block-bg-1 sectionWrapper">
                     <div class="container">
                         <div class="row">
-                            <div class="cell-4 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="200" style="animation-delay: 200ms;">
-                                <div class="grid3column uppercase">
+                            <div class="cell-3 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="200" style="animation-delay: 200ms;">
+                                <div class="grid3column uppercase cus_image">
                                     <h3>Trip advisor</h3>
                                     <img alt="" src="images/content-front-bottom-picture-1.jpg">
                                     <a class="btn btn-md btn-3d btn-white fx animated fadeInUp" href="#" data-animate="fadeInUp" data-animation-delay="1700" style="animation-delay: 1700ms;">
@@ -167,19 +167,28 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="cell-4 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="200" style="animation-delay: 200ms;">
-                                <div class="grid3column uppercase">
-                                    <h3>Trip advisor</h3>
-                                    <img alt="" src="images/content-front-bottom-picture-1.jpg">
+                            <div class="cell-3 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="200" style="animation-delay: 200ms;">
+                                <div class="grid3column uppercase cus_image">
+                                    <h3>Food Hygiene</h3>
+                                    <img alt="" src="images/content-front-bottom-picture-3.jpg">
                                     <a class="btn btn-md btn-3d btn-white fx animated fadeInUp" href="#" data-animate="fadeInUp" data-animation-delay="1700" style="animation-delay: 1700ms;">
                                         <span><i class="fa fa-chain selectedI"></i>read more...</span>
                                     </a>
                                 </div>
                             </div>
-                            <div class="cell-4 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="200" style="animation-delay: 200ms;">
-                                <div class="grid3column uppercase">
-                                    <h3>Trip advisor</h3>
-                                    <img alt="" src="images/content-front-bottom-picture-1.jpg">
+                            <div class="cell-3 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="200" style="animation-delay: 200ms;">
+                                <div class="grid3column uppercase cus_image">
+                                    <h3>Group Booking Offer</h3>
+                                    <img alt="" src="images/group_booking.jpg">
+                                    <a class="btn btn-md btn-3d btn-white fx animated fadeInUp" href="#" data-animate="fadeInUp" data-animation-delay="1700" style="animation-delay: 1700ms;">
+                                        <span><i class="fa fa-chain selectedI"></i>read more...</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="cell-3 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="200" style="animation-delay: 200ms;">
+                                <div class="grid3column uppercase cus_image">
+                                    <h3>Table Booking</h3>
+                                    <img alt="" src="images/table_booking.jpg">
                                     <a class="btn btn-md btn-3d btn-white fx animated fadeInUp" href="#" data-animate="fadeInUp" data-animation-delay="1700" style="animation-delay: 1700ms;">
                                         <span><i class="fa fa-chain selectedI"></i>read more...</span>
                                     </a>
@@ -196,7 +205,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="cell-6 animated fadeInLeft" data-animate="fadeInLeft">
-    <h3 class="block-head">On-line Order is easy! </h3>
+                            <h3 class="block-head">On-line Order is easy! </h3>
 
                                 <p>You can conveniently use the following services we offer when it is suitable for you
                                     24 hours a day 7 days a week in a quick and efficient way. Our on-line ordering

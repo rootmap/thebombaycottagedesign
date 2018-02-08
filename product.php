@@ -138,11 +138,11 @@
                             <!-- cell6 -->
                             <div class="cell-6">
                                 <div class="button-group">
-                                    <a class="btn btn-md btn-3d btn-chino fx animated fadeInUp" href="#" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
+                                    <a class="btn btn-md btn-3d delivery_time_detail btn-chino fx animated fadeInUp" href="#" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
                                         <span><i class="fa fa-bus selectedI"></i>Delivery Time</span> </a>
-                                    <a class="btn btn-md btn-3d btn-chino fx animated fadeInUp" href="#" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
+                                    <a class="btn btn-md btn-3d delivery_time_detail btn-chino fx animated fadeInUp" href="#" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
                                         <span><i class="fa fa-bus selectedI"></i>Allergy Alert</span> </a>
-                                    <a class="btn btn-md btn-3d btn-chino fx animated fadeInUp" href="#" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
+                                    <a class="btn btn-md btn-3d delivery_time_detail btn-chino fx animated fadeInUp" href="#" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
                                         <span><i class="fa fa-bus selectedI"></i>Delivery Info</span> </a>
                                 </div>
 
@@ -160,7 +160,7 @@
                                 <!-- NOTE -->
                                 <div class="cell12">
                                     <div class="productItem">
-                                        <h4 class="block-head  margin-bottom-40 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
+                                        <h4 id="pro1" class="block-head  margin-bottom-40 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
                                             <span>STARTERS</span>
                                         </h4>
 
@@ -255,9 +255,104 @@
                                         </table>
                                         <div class="clearfix"></div>
                                         <div class="padd-top-20"></div>
-                                        <h4 class="block-head  margin-bottom-40 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
+                                        <h4 id="pro2" class="block-head  margin-bottom-40 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
                                             <span>MAIN COURSES</span>
                                             <p>Tandoori Presentation, All Tandoori dishes served with salad.</p>
+                                        </h4>
+
+                                        <table cellpadding="0" cellspacing="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="60%">
+                                                        <span class="proName"> Tandoori Duck Shugondi (medium)</span>
+                                                        <p class="proDes">
+                                                            Barbecue duck cooked with mustard, gingar, garlic, yoghurt & tomato and garnished with fresh coriander, in a medium spicy sauce.
+                                                        </p>
+                                                    </td>
+                                                    <td width="20%"></td>
+                                                    <td width="20%" align="right">
+
+                                                        <div class="prosec">
+                                                            <p class="proPrice"><span>£5.50</span>
+                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="60%">
+                                                        <span class="proName"> Salmon-Ka-Tukra </span>
+                                                        <p class="proDes">
+                                                            Salmon Steak tempered with roasted spices then grilled.
+                                                        </p>
+                                                    </td>
+                                                    <td width="20%"></td>
+                                                    <td width="20%" align="right">
+
+                                                        <div class="prosec">
+                                                            <p class="proPrice"><span>£5.50</span>
+                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="60%">
+                                                        <span class="proName"> Salmon-Ka-Tukra </span>
+                                                        <p class="proDes">
+                                                            Salmon Steak tempered with roasted spices then grilled.
+                                                        </p>
+                                                    </td>
+                                                    <td width="20%"></td>
+                                                    <td width="20%" align="right">
+
+                                                        <div class="prosec">
+                                                            <p class="proPrice"><span>£5.50</span>
+                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="60%">
+                                                        <span class="proName"> Salmon-Ka-Tukra </span>
+                                                        <p class="proDes">
+                                                            Salmon Steak tempered with roasted spices then grilled.
+                                                        </p>
+                                                    </td>
+                                                    <td width="20%"></td>
+                                                    <td width="20%" align="right">
+
+                                                        <div class="prosec">
+                                                            <p class="proPrice"><span>£5.50</span>
+                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td width="60%">
+                                                        <span class="proName"> Salmon-Ka-Tukra </span>
+                                                        <p class="proDes">
+                                                            Salmon Steak tempered with roasted spices then grilled.
+                                                        </p>
+                                                    </td>
+                                                    <td width="20%"></td>
+                                                    <td width="20%" align="right">
+
+                                                        <div class="prosec">
+                                                            <p class="proPrice"><span>£5.50</span>
+                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
+                                                            </p>
+                                                        </div>
+                                                    </td>
+                                                </tr>          
+                                            </tbody>
+                                        </table>
+                                        <div class="clearfix"></div>
+                                        <div class="padd-top-20"></div>
+                                        <h4 id="pro3" class="block-head  margin-bottom-40 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
+                                            <span>SPECIAL PRESENTATION</span>
                                         </h4>
 
                                         <table cellpadding="0" cellspacing="0" border="0">
@@ -521,7 +616,7 @@
 
         </div>
 
-
+        <script src="js/sweetalert.min.js"></script>
         <!-- Load JS siles -->	
         <script type="text/javascript" src="js/jquery.min.js"></script>
 
@@ -567,5 +662,54 @@
 
         <!-- general script file -->
         <script type="text/javascript" src="js/script.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.delivery_time_detail').click(function(){
+                    swal("Delivery Time Info", "Delivery Time Detail");
+                });
+                $('.menu_page_category').click(function(){
+                    if($(this).attr('href')=="#pro1")
+                    {
+                        $('html, body').animate({
+                            scrollTop: $($(this).attr('href')).offset().top - 350
+                        }, 500);
+                    }
+                    else
+                    {
+                        $('html, body').animate({
+                            scrollTop: $($(this).attr('href')).offset().top - 200
+                        }, 500);
+                    }
+                    
+                });
+
+                $(document).scroll(function () {
+
+                    var scrollBottom = $(window).scrollTop() + $(window).height();
+                    var scrollBottomTop = scrollBottom+300;
+                    var scrollBottomPossitionShow = scrollBottom-500;
+                    var y = $(this).scrollTop();
+                    var totalVisibleposition=($(document).height()-900);
+                    //console.log(y);
+                    //console.log(scrollBottom);
+                    console.log(totalVisibleposition,scrollBottom);
+
+                    if (y>200) {
+                        if(totalVisibleposition<scrollBottom)
+                        { $('.bottomMenu').fadeOut(); }
+                        else
+                        {
+                            $('.bottomMenu').fadeIn(); 
+                        }
+                    }
+                    else
+                    { $('.bottomMenu').fadeOut(); }
+                    //if (y<=totalVisibleposition) { $('.bottomMenu').fadeOut(); }
+                    
+
+                });
+                
+            });
+        </script>
     </body>
 </html>
