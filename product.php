@@ -158,296 +158,9 @@
                                 <div class="clearfix"></div>
                                 <div class="padd-top-20"></div>
                                 <!-- NOTE -->
-                                <div class="cell12">
-                                    <div class="productItem">
-                                        <h4 id="pro1" class="block-head  margin-bottom-40 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
-                                            <span>STARTERS</span>
-                                        </h4>
-
-                                        <table cellpadding="0" cellspacing="0" border="0">
-                                            <tbody>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>          
-                                            </tbody>
-                                        </table>
-                                        <div class="clearfix"></div>
-                                        <div class="padd-top-20"></div>
-                                        <h4 id="pro2" class="block-head  margin-bottom-40 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
-                                            <span>MAIN COURSES</span>
-                                            <p>Tandoori Presentation, All Tandoori dishes served with salad.</p>
-                                        </h4>
-
-                                        <table cellpadding="0" cellspacing="0" border="0">
-                                            <tbody>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Tandoori Duck Shugondi (medium)</span>
-                                                        <p class="proDes">
-                                                            Barbecue duck cooked with mustard, gingar, garlic, yoghurt & tomato and garnished with fresh coriander, in a medium spicy sauce.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>          
-                                            </tbody>
-                                        </table>
-                                        <div class="clearfix"></div>
-                                        <div class="padd-top-20"></div>
-                                        <h4 id="pro3" class="block-head  margin-bottom-40 fx animated fadeInUp" data-animate="fadeInUp" data-animation-delay="600" style="animation-delay: 600ms;">
-                                            <span>SPECIAL PRESENTATION</span>
-                                        </h4>
-
-                                        <table cellpadding="0" cellspacing="0" border="0">
-                                            <tbody>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Tandoori Duck Shugondi (medium)</span>
-                                                        <p class="proDes">
-                                                            Barbecue duck cooked with mustard, gingar, garlic, yoghurt & tomato and garnished with fresh coriander, in a medium spicy sauce.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td width="60%">
-                                                        <span class="proName"> Salmon-Ka-Tukra </span>
-                                                        <p class="proDes">
-                                                            Salmon Steak tempered with roasted spices then grilled.
-                                                        </p>
-                                                    </td>
-                                                    <td width="20%"></td>
-                                                    <td width="20%" align="right">
-
-                                                        <div class="prosec">
-                                                            <p class="proPrice"><span>£5.50</span>
-                                                                <button class="proButton"><i class="fa fa-plus"></i></button>
-                                                            </p>
-                                                        </div>
-                                                    </td>
-                                                </tr>          
-                                            </tbody>
-                                        </table>
-
-
-                                    </div>
-                                </div>
+                                <?php 
+                                include('include/ros_menu.php');
+                                ?>
 
                             </div>
                             <!-- cell9 -->
@@ -459,7 +172,7 @@
                                         </div>
                                         <div class="pull-left cart">
                                             <span class="pull-left item-display">Your Selected items</span>
-                                            <span class="cart_item pull-left text-center" style="display: inline;">1</span>
+                                            <span class="cart_item mini_shopping-cart-quantity pull-left text-center" style="display: inline; border-radius: 5px;">0</span>
                                         </div>
                                     </div>
                                     <div class="clearfix"></div>
@@ -518,91 +231,7 @@
                     </div>
                 </div>
 
-                <div class="sectionWrapper gry-pattern similar-products">
-                    <div class="container">
-                        <h3 class="block-head">Similar Products</h3>
-                        <div class="row">
-                            <div class="cell-4">
-                                <div class="item-box">
-                                    <h3 class="item-title"><a href="product.html">Media Tech</a></h3>
-                                    <div class="item-img">
-                                        <a href="product.html"><img alt="" src="images/shop/pro-1.jpg"></a>
-                                    </div>
-                                    <div class="item-details">
-                                        <p>Phasellus blandit elementum tellus, nec adipiscing dui elementum non Phasellus blandit elementum tellus, nec adipiscing dui elementum non Phasellus blandit elementum tellus, nec adipiscing dui elementum non</p>
-                                        <div class="right">
-                                            <div class="item-rating">
-                                                <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span>
-                                            </div>
-                                            <div class="item-price">$50</div>
-                                        </div>
-                                        <div class="left">
-                                            <div class="item-cart">
-                                                <a class="add-cart" href="#"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                            </div>
-                                            <div class="item-tools">
-                                                <a href="#"><i class="fa fa-heart" data-title="Add to Favourites" data-tooltip="true"></i></a>
-                                                <a href="#"><i class="fa fa-exchange" data-title="Compare" data-tooltip="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="cell-4">
-                                <div class="item-box">
-                                    <h3 class="item-title"><a href="product.html">Ultimate Fashion Wear White</a></h3>
-                                    <div class="item-img">
-                                        <a href="product.html"><img alt="" src="images/shop/pro-2.jpg"></a>
-                                    </div>
-                                    <div class="item-details">
-                                        <p>Phasellus blandit elementum tellus, nec adipiscing dui elementum non Phasellus blandit elementum tellus, nec adipiscing dui elementum non Phasellus blandit elementum tellus, nec adipiscing dui elementum non</p>
-                                        <div class="right">
-                                            <div class="item-rating">
-                                                <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span>
-                                            </div>
-                                            <div class="item-price">$150</div>
-                                        </div>
-                                        <div class="left">
-                                            <div class="item-cart">
-                                                <a class="add-cart" href="#"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                            </div>
-                                            <div class="item-tools">
-                                                <a href="#"><i class="fa fa-heart" data-title="Add to Favourites" data-tooltip="true"></i></a>
-                                                <a href="#"><i class="fa fa-exchange" data-title="Compare" data-tooltip="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="cell-4">
-                                <div class="item-box">
-                                    <h3 class="item-title"><a href="product.html">Club Aldo Black Leather</a></h3>
-                                    <div class="item-img">
-                                        <a href="product.html"><img alt="" src="images/shop/pro-3.jpg"></a>
-                                    </div>
-                                    <div class="item-details">
-                                        <p>Phasellus blandit elementum tellus, nec adipiscing dui elementum non Phasellus blandit elementum tellus, nec adipiscing dui elementum non Phasellus blandit elementum tellus, nec adipiscing dui elementum non</p>
-                                        <div class="right">
-                                            <div class="item-rating">
-                                                <span class="fa fa-star"></span><span class="fa fa-star"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span><span class="fa fa-star-o"></span>
-                                            </div>
-                                            <div class="item-price">$80</div>
-                                        </div>
-                                        <div class="left">
-                                            <div class="item-cart">
-                                                <a class="add-cart" href="#"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                            </div>
-                                            <div class="item-tools">
-                                                <a href="#"><i class="fa fa-heart" data-title="Add to Favourites" data-tooltip="true"></i></a>
-                                                <a href="#"><i class="fa fa-exchange" data-title="Compare" data-tooltip="true"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
 
             </div>
             <!-- Content End -->
@@ -687,13 +316,13 @@
 
                     var scrollBottom = $(window).scrollTop() + $(window).height();
                     var y = $(this).scrollTop();
-                    var totalVisibleposition=($(document).height()-900);
+                    var totalVisibleposition=($(document).height()-300);
                     if (y>172) {
                         if(totalVisibleposition<scrollBottom)
                         { 
                             $("#menu_page_category").removeClass("category_fix_menu"); 
                             $("#mini_page_shopping_cart").removeClass("mini_fix_shopping_cart"); 
-                            
+
                         }
                         else
                         {
@@ -706,6 +335,12 @@
                         $("#menu_page_category").removeClass("category_fix_menu"); 
                         $("#mini_page_shopping_cart").removeClass("mini_fix_shopping_cart"); 
                     }
+                });
+
+                $(".remove").click(function(){
+                    
+                    $(this).parent('li').fadeOut('slow');
+                    swal('Item Removed','Your shopping cart item is removed successfully.','success');
                 });
                 
             });

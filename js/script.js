@@ -777,6 +777,11 @@
 			$(this).click(function(){
 				var num = $('#cart-count b').text();
 				num ++;
+				if($('.mini_shopping-cart-quantity').length)
+				{
+					$('.mini_shopping-cart-quantity').html(num);
+				}
+				swal('Thank You','Your selected item is added successfully.','success');
 				$('#cart-count b').text(num);
 				$('.cart-popup .mini-cart').show();
 				$('.cart-popup .empty').hide();
