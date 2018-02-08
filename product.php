@@ -452,7 +452,7 @@
                             </div>
                             <!-- cell9 -->
                             <div class="cell-3">
-                                <div class="tab_right_sidebar">
+                                <div class="tab_right_sidebar" id="mini_page_shopping_cart">
                                     <div class="tab_right_header">
                                         <div class="pull-left">
                                             <img src="images/cart-icon.png">
@@ -686,27 +686,26 @@
                 $(document).scroll(function () {
 
                     var scrollBottom = $(window).scrollTop() + $(window).height();
-                    var scrollBottomTop = scrollBottom+300;
-                    var scrollBottomPossitionShow = scrollBottom-500;
                     var y = $(this).scrollTop();
                     var totalVisibleposition=($(document).height()-900);
-                    //console.log(y);
-                    //console.log(scrollBottom);
-                    console.log(totalVisibleposition,scrollBottom);
-
-                    if (y>200) {
+                    if (y>172) {
                         if(totalVisibleposition<scrollBottom)
-                        { $('.bottomMenu').fadeOut(); }
+                        { 
+                            $("#menu_page_category").removeClass("category_fix_menu"); 
+                            $("#mini_page_shopping_cart").removeClass("mini_fix_shopping_cart"); 
+                            
+                        }
                         else
                         {
-                            $('.bottomMenu').fadeIn(); 
+                            $("#menu_page_category").addClass("category_fix_menu");
+                            $("#mini_page_shopping_cart").addClass("mini_fix_shopping_cart");
                         }
                     }
                     else
-                    { $('.bottomMenu').fadeOut(); }
-                    //if (y<=totalVisibleposition) { $('.bottomMenu').fadeOut(); }
-                    
-
+                    { 
+                        $("#menu_page_category").removeClass("category_fix_menu"); 
+                        $("#mini_page_shopping_cart").removeClass("mini_fix_shopping_cart"); 
+                    }
                 });
                 
             });

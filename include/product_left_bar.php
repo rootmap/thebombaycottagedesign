@@ -1,4 +1,25 @@
-<div class="widget blog-cat-w fx" data-animate="fadeInLeft">
+<style type="text/css">
+	.category_fix_menu {
+	    position: fixed;
+	    z-index: 1;
+	    top: 80px;
+	}
+	.category_fix_menu div ul li {
+		width: 241px !important;
+	}
+
+	.mini_fix_shopping_cart {
+	    position: fixed;
+	    z-index: 1;
+	    top: 80px;
+	    width: 260px !important;
+	}
+
+	.mini_fix_shopping_cart .mini-cart {
+		
+	}
+</style>
+<div class="widget blog-cat-w fx" id="menu_page_category" data-animate="fadeInLeft">
 	<h3 class="widget-head">categories</h3>
 	<div class="widget-content">
 		<ul class="list list-ok alt">
@@ -8,19 +29,8 @@
 		</ul>
 	</div>
 </div>
-<style type="text/css">
-	.bottomMenu {
-	    display: none;
-	    position: fixed;
-	    bottom: 0;
-	    width: 100%;
-	    height: 60px;
-	    border-top: 1px solid #000;
-	    background: red;
-	    z-index: 1;
-	}
-</style>
-<div class="bottomMenu"></div>
+
+<!-- <div class="bottomMenu"></div> -->
 <!-- <div class="widget r-posts-w sale-widget fx" data-animate="fadeInLeft">
 	<h3 class="widget-head">Top Sale</h3>
 	<div class="widget-content">
