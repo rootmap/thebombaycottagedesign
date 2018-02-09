@@ -219,11 +219,10 @@
                                 
 
                                 <div class="cell-6 grid3btn">
-                                    <a class="btn btn-md btn-round btn-orange fx animated fadeInDown" href="#" data-animate="fadeInDown" data-animation-delay="500" style="animation-delay: 500ms;">
+                                    <a class="btn btn-md btn-round btn-orange fx animated fadeInDown" href="product.php" data-animate="fadeInDown" data-animation-delay="500" style="animation-delay: 500ms;">
                                         <span><i class="fa fa-cart-plus fa-lg selectedI"></i>Order Online Smart Way</span>
                                     </a>
                                 </div>
-                            <img class="" src="images/how-to-order-with-ModelRestaurant.jpg" alt="cards info.">
                             </div>   
                             <div class="cell-6 animated fadeInRight" data-animate="fadeInRight">
                                 <div class="cus_pad_top">

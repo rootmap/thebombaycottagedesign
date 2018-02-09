@@ -16,11 +16,24 @@
                             <!-- contact us footer cell end -->
 
                             <!-- Newsletters footer cell start -->
-                            <div class="cell-3">
-                                <div class="foot-logo"></div>
-                                <p class="no-margin">Keep up on our always evolving product features and technology. Enter your e-mail and subscribe to our newsletter.</p>
+                            <div class="cell-3">                                
+                                <h3 class="block-head">We accept payment</h3>
+                                <p>
+                                    <img src="images/payment_accept/PayPal_large.png">
+                                </p>
 
-                                <form action="link-to-your-site" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate class="NL">
+
+
+                            </div>
+                            <!-- Newsletters footer cell start -->
+
+                            <!-- latest tweets footer cell start -->
+                            <div class="cell-3">
+                                <h3 class="block-head">Verify Us</h3>
+                                <p align="center">
+                                    <img style="height: 140px;" src="images/qrcode/qr-code_logo.png">
+                                </p>
+                                <!-- <form action="link-to-your-site" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate class="NL">
                                     <div class="skew-25 input-box left">
                                         <input type="email" value="" name="EMAIL" class="txt-box skew25" id="mce-EMAIL" placeholder="Enter Yor Email" required>
                                     </div>
@@ -33,17 +46,7 @@
                                         <a class="close-box" href="#"><i class="fa fa-times"></i></a>
                                         <p></p>
                                     </div>
-                                </form>
-
-
-
-                            </div>
-                            <!-- Newsletters footer cell start -->
-
-                            <!-- latest tweets footer cell start -->
-                            <div class="cell-3">
-                                <h3 class="block-head">Latest Tweets</h3>
-                                <div id="twitter-feed" class="tweet"></div>
+                                </form> -->
                             </div>
                             <!-- latest tweets footer cell start -->
 
@@ -63,7 +66,7 @@
                     <div class="container">
                         <div class="row">
                             <!-- footer copyrights left cell -->
-                            <div class="copyrights cell-5">&copy; Copyrights <b>EXCEPTION</b> 2014. All rights reserved. <span><a href="privacy.php">Privacy policy</a> | <a href="terms.php">Terms of use</a></span></div>
+                            <div class="copyrights cell-5">&copy; Copyrights <b>EXCEPTION</b> <??>. All rights reserved. <span><a href="privacy.php">Privacy policy</a> | <a href="terms.php">Terms of use</a></span></div>
 
                             <!-- footer social links right cell start -->
                             <div class="cell-7">
