@@ -170,28 +170,28 @@
 								<td class="width-10"><a class="remove-item" href="#"><i class="fa fa-times-circle"></i></a></td>
 								<td>MEDIA TECH</td>
 								<td class="width-50 center">$50</td>
-								<td class="qty-txt-box"><input type="text" value="1"><i class="fa fa-refresh"></i></td>
+								<td class="qty-txt-box"><input type="number" size="5" value="1"><i class="fa fa-refresh"></i></td>
 								<td class="width-50 center">$50</td>
 							</tr>
 							<tr>
 								<td class="width-10"><a class="remove-item" href="#"><i class="fa fa-times-circle"></i></a></td>
 								<td>ULTIMATE FASHION WEAR WHITE</td>
 								<td class="width-50 center">$150</td>
-								<td class="qty-txt-box"><input type="text" value="1"><i class="fa fa-refresh"></i></td>
+								<td class="qty-txt-box"><input type="number" value="1"><i class="fa fa-refresh"></i></td>
 								<td class="width-50 center">$150</td>
 							</tr>
 							<tr>
 								<td class="width-10 center"><a class="remove-item" href="#"><i class="fa fa-times-circle"></i></a></td>
 								<td>CLUB ALDO BLACK LEATHER</td>
 								<td class="width-50 center">$200</td>
-								<td class="qty-txt-box"><input type="text" value="5"><i class="fa fa-refresh"></i></td>
+								<td class="qty-txt-box"><input type="number" value="5"><i class="fa fa-refresh"></i></td>
 								<td class="width-50 center">$1000</td>
 							</tr>
 							<tr>
 								<td class="width-10"><a class="remove-item" href="#"><i class="fa fa-times-circle"></i></a></td>
 								<td>SAMSUNG GALAXY MOBILE</td>
 								<td class="width-50 center">$500</td>
-								<td class="qty-txt-box"><input type="text" value="1"><i class="fa fa-refresh"></i></td>
+								<td class="qty-txt-box"><input type="number" value="1"><i class="fa fa-refresh"></i></td>
 								<td class="width-50 center">$500</td>
 							</tr>
 							<tfoot>

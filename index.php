@@ -219,9 +219,10 @@
                                 
 
                                 <div class="cell-6 grid3btn">
-                                    <a class="btn btn-md btn-round btn-orange fx animated fadeInDown" href="product.php" data-animate="fadeInDown" data-animation-delay="500" style="animation-delay: 500ms;">
+                                    <!-- <a class="btn btn-md btn-round btn-orange fx animated fadeInDown" href="product.php" data-animate="fadeInDown" data-animation-delay="500" style="animation-delay: 500ms;">
                                         <span><i class="fa fa-cart-plus fa-lg selectedI"></i>Order Online Smart Way</span>
-                                    </a>
+                                    </a> -->
+                                    <a class="btn btn-primary online-smart-way model-restaurant-btn" href="#"><i class="fa fa-shopping-cart"></i></i> Order Online Smart Way</a>
                                 </div>
                             </div>   
                             <div class="cell-6 animated fadeInRight" data-animate="fadeInRight">
@@ -245,7 +246,7 @@
                                 <div class="fx" data-animate="fadeInLeft">
                                     <h3 class="block-head">Customers Testimonials</h3>
 
-                                    <div class="testimonials-1">
+                                    <div class="testimonials-2">
                                     
                                         <!-- testimonials item start -->
                                         <div>

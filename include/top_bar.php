@@ -1,4 +1,4 @@
-<div class="top-bar">
+<div class="top-bar" data-sticky="true">
     <div class="container">
         <div class="row">
             <div class="cell-5">

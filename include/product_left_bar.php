@@ -2,7 +2,7 @@
 	.category_fix_menu {
 	    position: fixed;
 	    z-index: 1;
-	    top: 80px;
+	    top: 120px;
 	}
 	.category_fix_menu div ul li {
 		width: 241px !important;
@@ -11,21 +11,44 @@
 	.mini_fix_shopping_cart {
 	    position: fixed;
 	    z-index: 1;
-	    top: 80px;
+	    top: 120px;
 	    width: 260px !important;
 	}
 
 	.mini_fix_shopping_cart .mini-cart {
 		
 	}
+
+	.blog-cat-w > div > ul > li:hover:after{
+		content: ".";
+		color: red;
+		background: #f00;
+		position: absolute;
+		right: 0px;
+		padding: 10px 0px;
+		margin-top: -10px !important;
+	}
+
+	.blog-cat-w > div > ul > li.active:after{
+		content: ".";
+		color: red;
+		background: #f00;
+		position: absolute;
+		right: 0px;
+		padding: 10px 0px;
+		margin-top: -10px !important;
+	}
 </style>
 <div class="widget blog-cat-w fx" id="menu_page_category" data-animate="fadeInLeft">
 	<h3 class="widget-head">categories</h3>
 	<div class="widget-content">
 		<ul class="list list-ok alt">
-			<li><a class="menu_page_category" href="#pro1">Starters</a><span>[250]</span></li>
+			<li class="active"><a class="menu_page_category" href="#pro1">Starters</a><span>[250]</span></li>
 			<li><a class="menu_page_category"  href="#pro2">Main Courses</a><span>[112]</span></li>
 			<li><a class="menu_page_category"  href="#pro3">Special Presentation</a><span>[150]</span></li>
+			<li><a class="menu_page_category"  href="#pro4">Executive Meals</a><span>[150]</span></li>
+			<li><a class="menu_page_category"  href="#pro5">Pizza</a><span>[150]</span></li>
+			<li><a class="menu_page_category"  href="#pro6">Traditional Set Menu</a><span>[150]</span></li>
 		</ul>
 	</div>
 </div>

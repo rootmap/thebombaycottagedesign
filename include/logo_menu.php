@@ -3,6 +3,7 @@
         <div class="row">
             <div class="logo cell-3">
                 <a href="./"></a>
+                <div class="mobileHide"> <span><i class="fa fa-phone"></i> Call Us: +1 (888) 000-0000</span> </div>
             </div>
             <div class="cell-9 top-menu">
 

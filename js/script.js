@@ -167,24 +167,30 @@
 	
 	/* ================ Sticky nav. ================ */
 	
-	if($('.top-head').attr('data-sticky') == "true"){
+	if($('.top-head, .top-bar').attr('data-sticky') == "true"){
 		$(window).on("scroll",function(){
 			var Scrl = $(window).scrollTop();
 			if (Scrl > 1) {
 				$('.top-head').addClass('sticky');
+				$('.top-bar').addClass('stickyTop');
 			}else{
 				$('.top-head').removeClass('sticky');
+				$('.top-bar').removeClass('stickyTop');
 			}
 		});
 		$('document').ready(function(){
 			var Scrl = $(window).scrollTop();
 			if (Scrl > 1) {
 				$('.top-head').addClass('sticky');
+				$('.top-bar').addClass('stickyTop');
 			}else{
 				$('.top-head').removeClass('sticky');
+				$('.top-bar').removeClass('stickyTop');
 			}
 		});
 	}
+
+	
 	
 	/* ================ Show Hide Search box. ================ */
 	$('.top-search a').click(function(){

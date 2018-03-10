@@ -14,7 +14,7 @@
     color: #868686;
     font-size: 1em;
     line-height: 1.5;
-    margin: 0 0 1em;
+    margin: 0 0 0;
     padding: 0;
 }
 .material-card-content hr {
@@ -76,8 +76,8 @@ box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);
 .prosec{margin-top: 10%;}
 .proButton i{font-size: 14px}
 .proButton i:hover{color: #fff;}
-.productItem table tr td{border-bottom: 1px solid #ededed; padding: 2%;}
-.productItem table tr:hover{background-color: #ededed; height: 140px;}
+.productItem table tr td{ border-bottom: 1px solid #ededed; padding:0 10px;}
+.productItem table tr:hover{ background-color: #ededed; /*height: 140px;*/}
 
 .tab_right_sidebar {
     background: #f5f5f5 none repeat scroll 0 0;
@@ -356,7 +356,6 @@ select{
 	top: -1px;
 	left: 4px;
 	display: block;
-	content: "";
 	content: "\f00c";
 	font-family: 'FontAwesome';
 	font-size: 12px;
@@ -513,3 +512,352 @@ select{
     -o-transition: all .3s ease;
     transition: all .3s ease;
 }
+/*custom button*/
+.model-restaurant-btn, a.model-restaurant-btn {
+    background: #D3AB67 no-repeat scroll 8px 4px;
+    background-size: 15%;
+    border: 0 none !important;
+    border-radius: 12px !important;
+    box-shadow: 0 5px 0 #996515, 0 6px 6px rgba(0, 0, 0, 0.3) !important;
+    color: #fff !important;
+    padding: 5px 0px;
+    position: relative;
+    text-decoration: none !important;
+    text-shadow: none !important;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 10px;
+    margin: 5px !important;
+}
+
+.model-restaurant-btn:hover, a.model-restaurant-btn:hover {
+    background: #DAA520 no-repeat scroll 8px -40px;
+    background-size: 15%;
+    box-shadow: 0 1px 0 #214a62, 0 3px 3px rgba(0, 0, 0, 0.3) !important;
+    top: 3px !important;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ .model-restaurant-btn, a.model-restaurant-btn  {  padding: 5px 0px; }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .model-restaurant-btn, a.model-restaurant-btn  {  margin: 4px !important; }
+  
+}
+.button-group a{width: 30%;}
+.contactimg{display: block; overflow: hidden;}
+.contactimg img{width: 40% !important; margin-right: 10%; float: left; overflow: hidden;}
+
+
+
+
+
+
+
+/*popup*/
+.modal,
+.modal-box {
+  z-index: 900;
+}
+
+.modal-sandbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  /*background: transparent;*/
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content:'';
+  background:rgba(0,0,0,0.85);
+  overflow: auto;
+}
+
+.modal-box {
+  position: relative;
+  width: 40%;
+  max-width: 920px;
+  margin: 110px auto;
+  animation-name: modalbox;
+  animation-duration: .3s;
+  animation-timing-function: ease-out;
+}
+
+.modal-header {
+  padding: 0px 10px 1px 10px;
+  background: #F2700F;
+  color: #ffffff;
+}
+.modal-header-details{
+  background: #ECEFF1;
+  padding: 5px 0px 1px 10px;
+}
+.modal-body {
+  background: #ECEFF1;
+  /*padding: 20px 0px 65px 0px;*/
+}
+
+/* Close Button */
+.close-modal {
+  cursor: pointer;
+  right: 8px;
+  top: 5px;
+  position: absolute;
+}
+
+/* Animation */
+@-webkit-keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+  }
+}
+
+@keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+  }
+}
+
+/* Aditional Styles */
+
+/*.modal-trigger, button {
+  top: 50%;
+  left: 50%;
+  padding: 20px 40px;
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+}
+
+.modal-trigger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: ease .2s;
+}
+*/
+.modal-body button {
+  border: 1px solid #333333;
+  outline: none;
+  color: #333333;
+}
+
+.btn.btn-optionlist {
+    background: #E64D64;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    padding: 7px 8px;
+    margin-bottom: 10px;
+    min-height: 34px;
+    border: none;
+}
+
+.btn.btn-optionlist-pizza {
+    background: linear-gradient(270deg, #f8f8f8, #f4f1f1);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    width: 100%;
+    padding: 7px 8px;
+    margin-bottom: 10px;
+    min-height: 34px;
+    border: none;
+    border-radius: 0px;
+}
+
+
+
+/*Executive product*/
+
+.prod_main_categories {
+    /*margin: 0 0 10px;*/
+    padding: 10px 10px 0;
+    }
+.prod_main_categories .cat_name {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+    }
+.prod_main_categories .cat_name h3 {
+    background-size: 100% auto !important;
+    height: 116px;
+    padding-top: 70px;
+    margin-top: 0;
+}
+.prod_main_categories .cat_name h3 span {
+    background: #f2700f none repeat scroll 0 0;
+    color: #ffffff;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 11px 9px;
+    text-align: center;
+}
+
+.prod_main_categories .product-info_simple .option {
+    /*margin-top: 5px;*/
+    }
+.prod_main_categories .product-info_simple .product_name {
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0;
+    padding: 4px;
+    }
+.prod_main_categories .product-info_simple .product_description p {
+    color: #333;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+    }
+ .border-dashed-top-3
+ {
+    border-top: 3px #ccc dashed;
+ } 
+
+ .border-dashed-bottom-3
+ {
+    border-bottom: 3px #ccc dashed;
+ }   
+.prod_main_categories .productdetails {
+    background-color: #f1f1f1;
+    color: #333;
+    display: inline-block;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-top: 3px;
+    width: 100%;
+    line-height:24px;
+    }
+
+.prod_main_categories .productdetails:hover {
+    background-color: #e3e3e3;
+    font-weight:bold;
+    }
+.prod_main_categories .productdetails .product_optionname {
+    float: left;
+    }
+.prod_main_categories .productdetails .product_option_currency {
+    float: left;
+    padding-right: 2px;
+    }
+.product_option_price {
+    float: right;
+    line-height: 24px !important;
+    color: #000;
+    }
+.prod_main_categories .productdetails .cart {
+    float: left;
+    }
+.free_products_popup .product-info_simple .option {
+    display:none;
+    }
+.free_products_popup .product-info_simple:hover {background-color: #f1f1f1;}
+.prod_main_categories .productdetails .cart a,
+.prod_main_categories a.button-cart_wop,
+.prod_main_categories .productdetails .product_option_popup input,
+.prod_main_categories .productdetails a.bundled_prodt_popup,
+.product_option_price a.category_prodt_popup,
+.product_option_price input.popupbuttonn,
+.product_option_price input.popupbuttonn:hover, 
+.product_option_price a.button-cart,
+.free_products_popup .product_option_popup.product_option_price .button
+ {
+    background:url(../images/addtocartcat.png) no-repeat scroll right center transparent;
+    border: 0 none;
+    float: right;
+    font-size: 0;
+    height: 24px;
+    margin-right: 10px !important;
+    padding: 12px;
+    text-indent: 29px;
+    width: 30px;
+    display:inline-block;
+    min-width: 20px;
+    border-radius:0;
+    }
+.product_option_price a span {
+    font-size:0;
+    padding:0;
+    }
+    .prod_main_categories .product-info_simple {
+    background-color: #fff;
+    border-bottom: 1px dashed #e8e8e6;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.restaurantOffers {
+    clear: both;
+    padding-top: 10px;
+}
+.restaurantOffers p {
+    background-color: #cd390c !important;
+    color: #fff !important;
+    padding: 5px 0px;
+    font-size: 13px;
+    text-align: center;
+    -webkit-transition: color .4s;
+    transition: color .4s;
+}
+
+
+
+/**/

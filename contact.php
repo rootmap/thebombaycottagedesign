@@ -34,6 +34,7 @@ $_SESSION['captcha'] = simple_php_captcha();
 
         <!-- Skin style (** you can change the link below with the one you need from skins folder in the css folder **) -->
         <link rel="stylesheet" id="skinCSS" href="css/skins/default.css">
+        <link rel="stylesheet" id="skinCSS" href="css/custom.css">
 
     </head>
     <body>
@@ -79,43 +80,7 @@ $_SESSION['captcha'] = simple_php_captcha();
                 <div class="padd-top-50">
                     <div class="container">
                         <div class="row">
-                            <div class="cell-7 contact-form fx" data-animate="fadeInLeft" id="contact">
-                                <h3 class="block-head">Get in Touch</h3>
-                                <mark id="message"></mark>
-                                <form class="form-signin cform" method="post" action="php/contact.php" id="cform" autocomplete="on">
-                                    <div class="form-input">
-                                        <label>First name<span class="red">*</span></label>
-                                        <input type="text" name="name" id="name" required="required">
-                                    </div>
-                                    <div class="form-input">
-                                        <label>Email<span class="red">*</span></label>
-                                        <input name="email" type="email" id="email" required="required">
-                                    </div>
-                                    <div class="form-input">
-                                        <label>Phone</label>
-                                        <input name="phone" type="text" id="phone">			    						
-                                    </div>
-                                    <div class="form-input">
-                                        <label>Message<span class="red">*</span></label>
-                                        <textarea name="message" cols="40" rows="7" id="messageTxt" spellcheck="true" required="required"></textarea>
-                                    </div>
-                                    <div  class="form-input">
-                                        <div class="row">
-                                            <div class="cell-12 margin-bottom-20"><img alt="" src="<?php echo $_SESSION['captcha']['image_src']; ?>" id='captchaimg' ></div>
-                                            <input type="hidden" id="hidCap" value="<?php echo $_SESSION['captcha']['code']; ?>" data-error="The captcha code does not match!" />
-                                            <div class="cell-3"><input id="captcha_input" name="captcha_input" type="text" required="required"></div>
-                                            <div class="cell-6"><label for='message'>Enter the code above :</label></div>
-                                        </div>
-                                    </div>
-                                    <div class="form-input">
-                                        <input id="submit" name="submit" type="submit" class="btn btn-large main-bg" value="Submit">&nbsp;&nbsp;<input type="reset" class="btn btn-large" value="Reset" id="reset">
-                                    </div>
-
-                                </form>
-                            </div>
-                            <div class="cell-5 contact-detalis">
-                                <h3 class="block-head">Contact Details</h3>
-                                <p class="fx" data-animate="fadeInRight">Lorem ipsum dolor sit amet, onsectetuer dipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Lorem ipsum dolor sit amet, onsectetuer dipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                            <div class="cell-6 contact-detalis fx" data-animate="fadeInLeft" id="contact">
                                 <hr class="hr-style4">
                                 <div class="clearfix"></div>
                                 <div class="padding-vertical">
@@ -143,6 +108,48 @@ $_SESSION['captcha'] = simple_php_captcha();
                                         <p>+2 012 000 0001</p>
                                     </div>
                                 </div>
+                                <h3 class="block-head">Download Our Apps</h3>
+                                <!-- <p class="fx" data-animate="fadeInRight">Lorem ipsum dolor sit amet, onsectetuer dipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat dipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Lorem ipsum dolor sit amet, onsectetuer dipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p> -->
+                                <div class="contactimg">
+                                <img src="images/apps/Android-app-store.png" alt="Android-app-store" />
+                                <img src="images/apps/Available-on-the-app-store-badge.png" alt="ios-app-store" style="margin-top: 10px;" />
+                            </div>
+                                
+                            </div>
+                            <div class="cell-6 contact-form">
+                                
+                                <h3 class="block-head">Get in Touch</h3>
+                                <mark id="message"></mark>
+                                <form class="form-signin cform" method="post" action="php/contact.php" id="cform" autocomplete="on">
+                                    <div class="form-input">
+                                        <label>First name<span class="red">*</span></label>
+                                        <input type="text" name="name" id="name" required="required">
+                                    </div>
+                                    <div class="form-input">
+                                        <label>Email<span class="red">*</span></label>
+                                        <input name="email" type="email" id="email" required="required">
+                                    </div>
+                                    <div class="form-input">
+                                        <label>Phone</label>
+                                        <input name="phone" type="text" id="phone">                                     
+                                    </div>
+                                    <div class="form-input">
+                                        <label>Message<span class="red">*</span></label>
+                                        <textarea name="message" cols="40" rows="7" id="messageTxt" spellcheck="true" required="required"></textarea>
+                                    </div>
+                                    <div  class="form-input">
+                                        <div class="row">
+                                            <div class="cell-12 margin-bottom-20"><img alt="" src="<?php echo $_SESSION['captcha']['image_src']; ?>" id='captchaimg' ></div>
+                                            <input type="hidden" id="hidCap" value="<?php echo $_SESSION['captcha']['code']; ?>" data-error="The captcha code does not match!" />
+                                            <div class="cell-3"><input id="captcha_input" name="captcha_input" type="text" required="required"></div>
+                                            <div class="cell-6"><label for='message'>Enter the code above :</label></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-input">
+                                        <input id="submit" name="submit" type="submit" class="btn btn-large main-bg" value="Submit">&nbsp;&nbsp;<input type="reset" class="btn btn-large" value="Reset" id="reset">
+                                    </div>
+
+                                </form>
                             </div>
                         </div>
                     </div>

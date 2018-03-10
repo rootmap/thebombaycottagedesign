@@ -14,7 +14,6 @@
 
         <!-- CSS StyleSheets -->
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&amp;amp;subset=latin,latin-ext">
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/animate.css">
         <link rel="stylesheet" href="css/prettyPhoto.css">
@@ -31,9 +30,6 @@
         <!-- Skin style (** you can change the link below with the one you need from skins folder in the css folder **) -->
         <link rel="stylesheet" href="css/skins/default.css">
         <link rel="stylesheet" href="css/custom.css">
-
-        <!--Radio Button Script-->
-        <link rel="stylesheet" href="css/radio-button/style.css">
 
     </head>
     <body>
@@ -174,9 +170,9 @@
                                 <div class="padd-top-20"></div>
                                 <!-- NOTE -->
                                 <?php 
-                                include('include/ros_menu.php');
+                                //include('include/ros_menu.php');
                                 ?>
-
+                                
                             </div>
                             <!-- cell9 -->
                             <div class="cell-3">
@@ -223,11 +219,6 @@
                                             <div class="clearfix">
                                                 <div class="left">Sub-Total:</div>
                                                 <div class="right">$230.00</div>
-                                            </div>
-                                            <div class="clearfix">
-                                                <div class="restaurantOffers">
-                                                    <p>Spend another £4.55 to get 20% off</p>
-                                                </div>
                                             </div>
                                             <div class="clearfix">
                                                 <div class="left">Tax (-10.00):</div>
@@ -322,25 +313,14 @@
                 $('.menu_page_category').click(function(){
                     if($(this).attr('href')=="#pro1")
                     {
-                        //addClass
-                        //console.log($(this).parent().html());
-                        //console.log($(this).parent().parent().children('li').html());
-                        $.each($(this).parent().parent().children('li'),function(index,row){
-                            $(row).removeClass('active');
-                        });
-                        $(this).parent().addClass('active')
                         $('html, body').animate({
-                            scrollTop: $($(this).attr('href')).offset().top - 300
+                            scrollTop: $($(this).attr('href')).offset().top - 350
                         }, 500);
                     }
                     else
                     {
-                        $.each($(this).parent().parent().children('li'),function(index,row){
-                            $(row).removeClass('active');
-                        });
-                        $(this).parent().addClass('active')
                         $('html, body').animate({
-                            scrollTop: $($(this).attr('href')).offset().top - 150
+                            scrollTop: $($(this).attr('href')).offset().top - 200
                         }, 500);
                     }
                     
@@ -358,7 +338,7 @@
 
                         var scrollBottom = $(window).scrollTop() + $(window).height();
                         var y = $(this).scrollTop();
-                        var totalVisibleposition=($(document).height()-250);
+                        var totalVisibleposition=($(document).height()-300);
                         if (y>172) {
                             if(totalVisibleposition<scrollBottom)
                             { 
@@ -386,134 +366,14 @@
                     $(this).parent('li').fadeOut('slow');
                     swal('Item Removed','Your shopping cart item is removed successfully.','success');
                 });
-
-
-
-                /* Genarating Pizza Menu Activity*/
-                $('.pizza-check-category').click(function(){
-                    var cat_id=$(this).val();
-                    var cat_name=$(this).parent('div').children('label').children('p').html();
-
-                    var strHtml='<div class="custom-radio-input-group-two" data-id="'+cat_id+'" data-text="'+cat_name+'"><label for="capasino_'+cat_id+'" class="custom-radio-input-group-border-bottom"><p style="margin: 0px !important;">'+cat_name+'</p></label></div>';
-
-                    
-
-                    $("#data-select-place").append(strHtml);
-                    $("#sub-category").fadeIn('fast');
-                    $(this).parent('div').parent('section').remove();
-
-                });
-
-                $('.pizza-check-subcat').click(function(){
-                    var cat_id=$(this).val();
-                    var cat_name=$(this).parent('div').children('label').children('p').html();
-                    
-                    var strHtml='<div class="custom-radio-input-group-two" data-id="'+cat_id+'" data-text="'+cat_name+'"><label for="capasino_'+cat_id+'" class="custom-radio-input-group-border-bottom"><p style="margin: 0px !important;">'+cat_name+'</p></label></div>';
-                    $("#data-select-place").append(strHtml);
-                    $(this).parent('div').parent('section').remove();
-                    $(".menu_options-header").hide();
-
-                    /*$('.selection-subcat-part').each(function(index,row){
-
-                        if($(this).children('input').is(':checked'))
-                        {
-                            //$("#sub-category").fadeIn('slow');
-                        }
-                        else
-                        {
-                            $(this).fadeOut('slow');
-                        }
-                    });*/
-                    $(".cat-extra-table").show();
-                });
-
-                $(".cat-extra-table").hide();
-                $(".add-to-extras").click(function(){
-                    $(this).parent().parent().parent().parent().find('.classExtraCalculate').show();
-                    console.log($(this).parent().parent().parent().parent().parent().parent().parent().parent().find('.modal-footer').find('.totlabsk').html()); //:nth-child(2)
-                    var rwPrT=$(this).parent().parent().parent().parent().find('.classExtraCalculate').children('span:eq(1)').html();
-                    var exQT=$(this).parent().parent().parent().parent().find('.classExtraCalculate').children('span:eq(0)').html();
-                    var newQT=(exQT-0)+(1-0);
-                    var newTotPr=newQT*rwPrT;
-
-                    var extotalPR=$(this).parent().parent().parent().parent().parent().parent().parent().parent().find('.modal-footer').find('.totlabsk').html();
-
-                    var newTotalPR=(extotalPR-0)+(rwPrT-0);
-
-                    $(this).parent().parent().parent().parent().find('.classExtraCalculate').children('span:eq(0)').html(newQT);
-                    $(this).parent().parent().parent().parent().find('.classExtraCalculate').children('span:eq(2)').html(newTotPr);
-                    $(this).parent().parent().parent().parent().parent().parent().parent().parent().find('.modal-footer').find('.totlabsk').html(newTotalPR);
-                    $(this).parent().parent().parent().parent().parent().parent().parent().parent().find('button').children('b').html('Add to basket');
-                    //classExtraCalculate
-                });
-
-                $(".deductQTYPizza").click(function(){
-                    console.log('submission pen');
-                    //console.log($(this).parent().html());
-                        if($(this).parent().children('span:eq(0)').html()==1)
-                        {
-                            var extotalPR=$(this).parent().parent().parent().parent().parent().parent().parent().find('.modal-footer').find('.totlabsk').html();
-                            var curPRSin=$(this).parent().children('span:eq(1)').html();
-                            var neWtotalPR=extotalPR-curPRSin;
-                            $(this).parent().children('span:eq(0)').html(0);
-                            $(this).parent().parent().parent().parent().parent().parent().parent().find('.modal-footer').find('.totlabsk').html(neWtotalPR);
-                            $(this).parent().parent().find('.classExtraCalculate').fadeOut();
-                        }
-                        else
-                        {
-                            var extotalPR=$(this).parent().parent().parent().parent().parent().parent().parent().find('.modal-footer').find('.totlabsk').html();
-                            var curPRSin=$(this).parent().children('span:eq(1)').html();
-                            var neWtotalPR=extotalPR-curPRSin;
-                            var exQTY=$(this).parent().children('span:eq(0)').html();
-                            var newQTY=exQTY-1;
-                            var newRQTYPR=newQTY*curPRSin;
-
-                            $(this).parent().children('span:eq(0)').html(newQTY);
-                            $(this).parent().children('span:eq(2)').html(newRQTYPR);
-
-
-                            $(this).parent().parent().parent().parent().parent().parent().parent().find('.modal-footer').find('.totlabsk').html(neWtotalPR);
-    
-                        }
-                        
-                });
-
-                $(".add-total-pizza-basket").click(function(){
-                    var fullModal=$(this).attr('data-take');
-                    //console.log($("#"+fullModal).find("#data-select-place").html());
-                    var totalCartPrice=$("#"+fullModal).find(".totlabsk").html();
-                    var main_product_name=$("#"+fullModal).attr("data-main-product");
-                    
-                    var newTextAllExtra='<b>'+main_product_name+'</b>';
-                    $.each($("#"+fullModal).find("#data-select-place").find('.custom-radio-input-group-two'),function(index,row){
-                        var nExtraText=$(row).attr('data-text');
-                        var nExtraID=$(row).attr('data-id');
-                        newTextAllExtra+='<div>+'+nExtraText+'</div>';
-                    });
-
-                    $.each($("#"+fullModal).find(".proDesc"),function(index,row){
-                        //console.log(row);
-                        if($(row).children('span:eq(0)').html()!=0)
-                        {
-                            newTextAllExtra+='+'+$(row).attr('data-extra-name')+'<br>';
-                        }
-                    });
-
-                    var strHTML='<li><a class="cart-mini-lft" href="product.html"><img src="images/shop/pro-2.jpg" alt=""></a><div class="cart-body"><a href="product.html">'+newTextAllExtra+'</a><div class="price">£'+totalCartPrice+'</div></div><a class="remove" href="#"><i class="fa fa-times" title="Remove"></i></a></li>';
-
-                    $(".mini-cart-list").append(strHTML);
-                    $(".close-modal").click();
-                });
-
-                /* Ending Pizza Menu Activity*/
                 
             });
         </script>
         <script>
-           /*
+            //store the element
             var $cache = $('.my-sticky-element');
 
-           
+            //store the initial position of the element
             var vTop = $cache.offset().top - parseFloat($cache.css('margin-top').replace(/auto/, 0));
               $(window).scroll(function (event) {
                 // what the y position of the scroll is
@@ -527,7 +387,7 @@
                   // otherwise remove it
                   $cache.removeClass('stuck');
                 }
-              });*/
+              });
         </script>
         <script>
             $(".modal-trigger").click(function(e){
@@ -540,6 +400,26 @@
               $(".modal").css({"display":"none"});
             });
         </script>
-        
+        <script>
+            $('#open').click(function() {
+    $('#dialog').dialog('open');
+
+});
+
+
+
+jQuery(document).ready(function() {
+    jQuery("#dialog").dialog({
+        autoOpen: false,
+        modal: true,
+        open: function(){
+            jQuery('.ui-widget-overlay').bind('click',function(){
+                jQuery('#dialog').dialog('close');
+            })
+        }
+    });
+}); 
+
+        </script>
     </body>
 </html>
