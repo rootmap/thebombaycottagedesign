@@ -510,7 +510,7 @@
             });
         </script>
         <script>
-           /*
+           
             var $cache = $('.my-sticky-element');
 
            
@@ -527,7 +527,7 @@
                   // otherwise remove it
                   $cache.removeClass('stuck');
                 }
-              });*/
+              });
         </script>
         <script>
             $(".modal-trigger").click(function(e){

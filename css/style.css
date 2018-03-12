@@ -8732,15 +8732,20 @@ i.icon {
         border-radius: 0px !important;
 }
 .productmbl{display: none;}
-@media only screen 
-    and (min-device-width : 320px) 
-    and (max-device-width : 480px){ 
-     .mobileHide {display: inline; }
-     .mobileHide span{margin-left: 25%; }
-     .menuBtn{margin-top: 20px !important;}
+
+
+
+
+/*askmdkasdjnajnajsnkjdan*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.mobileHide {display: inline; }
+     .mobileHide span{margin-left: 22%; }
+     .menuBtn{margin-top: 15px !important;}
      .cusButonRight{display: inline; margin: 15px 0px 0px 0px;}
-     .sticky {top: 0px;}
-     	.my-sticky-element.stuck {
+     .sticky {top: 0px !important;}
+
+     .my-sticky-element.stuck {
 	    position:fixed;
 	    top: 60px;
 	    left: 0;
@@ -8759,23 +8764,102 @@ i.icon {
 		    width:200px;*/
 		}
 		.left-shop{display: none;}
-		.productdes{display: none;}
 		.productmbl{display: inline;}
+		.productdes{display: none;}
 		.accordion-panel {
 		     margin: 15px 40px; 
 		     padding: 0px; 
 		     border-left:0px; 
 		}
+}
 
-  }
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) 
-and (-webkit-min-device-pixel-ratio: 1) { 
-     .mobileHide {display: inline; }
-     .mobileHide span{margin-left: 38%; }
-     .menuBtn{margin-top: 20px;}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.mobileHide {display: none; }
+     .mobileHide span{margin-left: 35%; }
+     .menuBtn{margin-top: 15px !important;}
+     .cusButonRight{display: inline; margin: 4px 0px 0px 40px;}
+     .sticky {top: 39px !important;}
+
+     .my-sticky-element.stuck {
+	    position:fixed;
+	    top: 60px;
+	    left: 0;
+	    padding: 0 !important;
+	    width: 100%;
+	    z-index: 99999;
+	    min-height: inherit !important;
+	    border-bottom: 0 !important;
+	    margin-top: 10px;
+		}
+		.my-sticky-element {
+		    background-color:white;
+		    /*color: white;
+		    font-family: sans-serif;
+		    padding:5px 20px;
+		    width:200px;*/
+		}
+		.left-shop{display: none;}
+		.productmbl{display: inline;}
+		.productdes{display: none;}
+		.accordion-panel {
+		     margin: 15px 40px; 
+		     padding: 0px; 
+		     border-left:0px; 
+		}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+.mobileHide {display: none; }
+     .mobileHide span{margin-left: 35%; }
+     .menuBtn{margin-top: 15px !important;}
+     .cusButonRight{display: inline; margin: 4px 0px 0px 40px;}
+     .sticky {top: 39px !important;}
+
+     .my-sticky-element.stuck {
+	    position:fixed;
+	    top: 60px;
+	    left: 0;
+	    padding: 0 !important;
+	    width: 100%;
+	    z-index: 99999;
+	    min-height: inherit !important;
+	    border-bottom: 0 !important;
+	    margin-top: 10px;
+		}
+		.my-sticky-element {
+		    background-color:white;
+		    /*color: white;
+		    font-family: sans-serif;
+		    padding:5px 20px;
+		    width:200px;*/
+		}
+		.left-shop{display: none;}
+		.productmbl{display: inline;}
+		.productdes{display: none;}
+		.accordion-panel {
+		     margin: 15px 40px; 
+		     padding: 0px; 
+		     border-left:0px; 
+		}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+.mobileHide {display: inline; }
+     .mobileHide span{margin-left: 35%; }
+     .menuBtn{margin-top: 15px !important;}
      .cusButonRight{display: inline; margin: 4px 0px 0px 40px;}
      .sticky {top: 0px !important;}
 
@@ -8805,4 +8889,148 @@ and (-webkit-min-device-pixel-ratio: 1) {
 		     padding: 0px; 
 		     border-left:0px; 
 		}
-}  
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+.mobileHide {display: inline; }
+     .mobileHide span{margin-left: 35%; }
+     .menuBtn{margin-top: 15px !important;}
+     .cusButonRight{display: inline; margin: 4px 0px 0px 40px;}
+     .sticky {top: 0px !important;}
+
+     .my-sticky-element.stuck {
+	    position:fixed;
+	    top: 60px;
+	    left: 0;
+	    padding: 0 !important;
+	    width: 100%;
+	    z-index: 99999;
+	    min-height: inherit !important;
+	    border-bottom: 0 !important;
+	    margin-top: 10px;
+		}
+		.my-sticky-element {
+		    background-color:white;
+		    /*color: white;
+		    font-family: sans-serif;
+		    padding:5px 20px;
+		    width:200px;*/
+		}
+		.left-shop{display: none;}
+		.productmbl{display: inline;}
+		.productdes{display: none;}
+		.accordion-panel {
+		     margin: 15px 40px; 
+		     padding: 0px; 
+		     border-left:0px; 
+		}
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+.mobileHide {display: inline; }
+     .mobileHide span{margin-left: 35%; }
+     .menuBtn{margin-top: 15px !important;}
+     .cusButonRight{display: inline; margin: 4px 0px 0px 40px;}
+     .sticky {top: 0px !important;}
+
+     .my-sticky-element.stuck {
+	    position:fixed;
+	    top: 60px;
+	    left: 0;
+	    padding: 0 !important;
+	    width: 100%;
+	    z-index: 99999;
+	    min-height: inherit !important;
+	    border-bottom: 0 !important;
+	    margin-top: 10px;
+		}
+		.my-sticky-element {
+		    background-color:white;
+		    /*color: white;
+		    font-family: sans-serif;
+		    padding:5px 20px;
+		    width:200px;*/
+		}
+		.left-shop{display: none;}
+		.productmbl{display: inline;}
+		.productdes{display: none;}
+		.accordion-panel {
+		     margin: 15px 40px; 
+		     padding: 0px; 
+		     border-left:0px; 
+		}
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
